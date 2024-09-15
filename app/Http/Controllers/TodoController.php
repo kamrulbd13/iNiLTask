@@ -63,5 +63,9 @@ class TodoController extends Controller
       return redirect()->back();
     }
 
+    // task
+    public function task(){
+        return view('task.index');
+    }
 
 }
